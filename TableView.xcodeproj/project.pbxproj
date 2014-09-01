@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4FC638C919B4156100A1F026 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC638C819B4156100A1F026 /* AppDelegate.swift */; };
-		4FC638CB19B4156100A1F026 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC638CA19B4156100A1F026 /* ViewController.swift */; };
 		4FC638CE19B4156100A1F026 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC638CC19B4156100A1F026 /* Main.storyboard */; };
 		4FC638D019B4156100A1F026 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC638CF19B4156100A1F026 /* Images.xcassets */; };
 		4FC638DC19B4156100A1F026 /* TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC638DB19B4156100A1F026 /* TableViewTests.swift */; };
+		4FC638E619B4165800A1F026 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC638E519B4165800A1F026 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +28,12 @@
 		4FC638C319B4156100A1F026 /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC638C719B4156100A1F026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FC638C819B4156100A1F026 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4FC638CA19B4156100A1F026 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4FC638CD19B4156100A1F026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FC638CF19B4156100A1F026 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4FC638D519B4156100A1F026 /* TableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC638DA19B4156100A1F026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FC638DB19B4156100A1F026 /* TableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTests.swift; sourceTree = "<group>"; };
+		4FC638E519B4165800A1F026 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				4FC638C819B4156100A1F026 /* AppDelegate.swift */,
-				4FC638CA19B4156100A1F026 /* ViewController.swift */,
+				4FC638E519B4165800A1F026 /* TableViewController.swift */,
 				4FC638CC19B4156100A1F026 /* Main.storyboard */,
 				4FC638CF19B4156100A1F026 /* Images.xcassets */,
 				4FC638C619B4156100A1F026 /* Supporting Files */,
@@ -208,8 +208,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FC638CB19B4156100A1F026 /* ViewController.swift in Sources */,
 				4FC638C919B4156100A1F026 /* AppDelegate.swift in Sources */,
+				4FC638E619B4165800A1F026 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
